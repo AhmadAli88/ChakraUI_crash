@@ -22,6 +22,23 @@ import MyRangeSlider from "./components/RangeSlider";
 import MySelect from "./components/Select";
 import MySwitch from "./components/Switch";
 import MyTextarea from "./components/Textarea";
+import MyBadge from "./components/badge";
+import MyCard from "./components/Card";
+import MyCode from "./components/Code";
+import MyDivider from "./components/Divider";
+import MyList from "./components/List";
+import MyTable from "./components/Table";
+import MyToast from "./components/Toast";
+import MySkeleton from "./components/Skeleton";
+import MyProgress from "./components/Progress";
+import MyCircularProgress from "./components/CircularProgress";
+import MyText from "./components/Text";
+import MyHeading from "./components/Heading";
+import MyHighlight from "./components/Highlight";
+import MyAlertDialog from "./components/AlertDialog";
+import MyDrawer from "./components/Drawer";
+import MyMenu from "./components/Menu";
+import MyModal from "./components/Modal";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -55,6 +72,23 @@ function App() {
         <Route path="/select" element={<MySelect />} />
         <Route path="/switch" element={<MySwitch />} />
         <Route path="/textarea" element={<MyTextarea />} />
+        <Route path="/badge" element={<MyBadge />} />
+        <Route path="/card" element={<MyCard />} />
+        <Route path="/code" element={<MyCode />} />
+        <Route path="/divider" element={<MyDivider />} />
+        <Route path="/list" element={<MyList />} />
+        <Route path="/table" element={<MyTable />} />
+        <Route path="/toast" element={<MyToast />} />
+        <Route path="/skeleton" element={<MySkeleton />} />
+        <Route path="/progress" element={<MyProgress />} />
+        <Route path="/circular-progress" element={<MyCircularProgress />} />
+        <Route path="/text" element={<MyText />} />
+        <Route path="/heading" element={<MyHeading />} />
+        <Route path="/highlight" element={<MyHighlight />} />
+        <Route path="/alert-dialog" element={<MyAlertDialog />} />
+        <Route path="/drawer" element={<MyDrawer />} />
+        <Route path="/menu" element={<MyMenu />} />
+        <Route path="/modal" element={<MyModal />} />
       </Routes>
     </Router>
   );
