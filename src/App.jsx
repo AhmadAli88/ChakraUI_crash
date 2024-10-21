@@ -39,6 +39,17 @@ import MyAlertDialog from "./components/AlertDialog";
 import MyDrawer from "./components/Drawer";
 import MyMenu from "./components/Menu";
 import MyModal from "./components/Modal";
+import MyPopover from "./components/Popover";
+import MyTooltip from "./components/Tooltip";
+import MyAccordian from "./components/Accordian";
+import MyTabs from "./components/Tabs";
+import MyVisualHidden from "./components/VisualHidden";
+import MyLink from "./components/Link";
+import MyBreadcrumb from "./components/Breadcrumb";
+import MyStepper from "./components/Stepper";
+import MyAvatar from "./components/Avatar";
+import MyImage from "./components/Image";
+import MyShowHide from "./components/ShowHide";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -89,6 +100,17 @@ function App() {
         <Route path="/drawer" element={<MyDrawer />} />
         <Route path="/menu" element={<MyMenu />} />
         <Route path="/modal" element={<MyModal />} />
+        <Route path="/popover" element={<MyPopover />} />
+        <Route path="/tooltip" element={<MyTooltip />} />
+        <Route path="/accordian" element={<MyAccordian />} />
+        <Route path="/tabs" element={<MyTabs />} />
+        <Route path="/visual-hidden" element={<MyVisualHidden />} />
+        <Route path="/links" element={<MyLink />} />
+        <Route path="/breadcrumbs" element={<MyBreadcrumb />} />
+        <Route path="/stepper" element={<MyStepper />} />
+        <Route path="/avatar" element={<MyAvatar />} />
+        <Route path="/image" element={<MyImage />} />
+        <Route path="/show-hide" element={<MyShowHide />} />
       </Routes>
     </Router>
   );
