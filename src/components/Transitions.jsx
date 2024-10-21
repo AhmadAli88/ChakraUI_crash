@@ -1,7 +1,8 @@
 import React from "react";
-import { Fade, ScaleFade, Slide, SlideFade, Collapse } from "@chakra-ui/react";
+import { Fade, ScaleFade, Slide, SlideFade, Collapse, Box, Button, useDisclosure } from "@chakra-ui/react";
 
-const Transitions = () => {
+const MyTransitions = () => {
+    const { isOpen, onToggle } = useDisclosure()
   return (
     <div>
       {" "}
@@ -22,4 +23,4 @@ const Transitions = () => {
   );
 };
 
-export default Transitions;
+export default MyTransitions;

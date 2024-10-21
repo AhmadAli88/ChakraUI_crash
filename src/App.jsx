@@ -50,6 +50,8 @@ import MyStepper from "./components/Stepper";
 import MyAvatar from "./components/Avatar";
 import MyImage from "./components/Image";
 import MyShowHide from "./components/ShowHide";
+import MyTransitions from "./components/Transitions";
+import MyCloseButton from "./components/CloseButton";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -111,6 +113,8 @@ function App() {
         <Route path="/avatar" element={<MyAvatar />} />
         <Route path="/image" element={<MyImage />} />
         <Route path="/show-hide" element={<MyShowHide />} />
+        <Route path="/transitions" element={<MyTransitions />} />
+        <Route path="/close-button" element={<MyCloseButton />} />
       </Routes>
     </Router>
   );
